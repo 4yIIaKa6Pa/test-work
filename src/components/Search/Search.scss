@@ -1,0 +1,19 @@
+.Search {
+  margin-top: 25px;
+
+  &__input {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 10px 20px;
+  }
+
+  &__button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    position: relative;
+    left: -1px;
+  }
+}

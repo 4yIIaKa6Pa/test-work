@@ -1,0 +1,30 @@
+.Header {
+  display: flex;
+  background: #272b30;
+  padding: 0 40px;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  &__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    &-item {
+      list-style-type: none;
+      display: flex;
+      padding: 20px;
+      transition: all 300ms;
+    }
+
+    &-item:hover {
+      background: #1a1c1f;
+    }
+  }
+}
