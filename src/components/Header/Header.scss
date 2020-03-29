@@ -27,4 +27,30 @@
       background: #1a1c1f;
     }
   }
+
+  &__burger {
+    display: none;
+  }
+}
+
+.bm-burger-button {
+  top: 18px;
+}
+
+.bm-burger-button .bm-burger-bars {
+  background-color: white;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+
+    &__list {
+      display: none;
+    }
+
+    &__burger {
+      display: block;
+    }
+  }
 }

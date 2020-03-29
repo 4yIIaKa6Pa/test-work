@@ -15,3 +15,22 @@
     font-size: 26px;
   }
 }
+
+@media screen and (max-width: 991px) {
+    .Home-page {
+
+      &__data {
+        grid-template-columns: repeat(2, 300px);
+      }
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .Home-page {
+
+    &__data {
+      grid-template-columns: repeat(1, 300px);
+    }
+  }
+}
+

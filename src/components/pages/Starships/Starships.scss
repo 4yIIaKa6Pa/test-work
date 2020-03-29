@@ -10,3 +10,21 @@
     margin-top: 30px;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .Starships {
+
+    &__data {
+      grid-template-columns: repeat(2, 300px);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Starships {
+
+    &__data {
+      grid-template-columns: repeat(1, 300px);
+    }
+  }
+}

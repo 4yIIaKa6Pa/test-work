@@ -22,6 +22,7 @@ export default {
     padding: 0;
     background: #1c1e22;
     color: white;
+    min-width: 320px;
   }
   p, h2 {
     margin: 0;
